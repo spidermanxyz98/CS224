@@ -1,0 +1,95 @@
+2018-05-03 13:20:27,840:INFO: Building model...
+2018-05-03 13:20:28,722:INFO: took 0.88 seconds
+2018-05-03 13:20:30,056:INFO: Epoch 1 out of 10
+2018-05-03 13:20:36,472:INFO: Evaluating on development data
+2018-05-03 13:20:38,369:DEBUG: Token-level confusion matrix:
+go\gu   	PER     	ORG     	LOC     	MISC    	O       
+PER     	123.00  	8.00    	2821.00 	16.00   	181.00  
+ORG     	47.00   	5.00    	1816.00 	16.00   	208.00  
+LOC     	49.00   	4.00    	1840.00 	19.00   	182.00  
+MISC    	27.00   	5.00    	1069.00 	16.00   	151.00  
+O       	279.00  	4.00    	22050.00	94.00   	20332.00
+
+2018-05-03 13:20:38,371:DEBUG: Token-level scores:
+label	acc  	prec 	rec  	f1   
+PER  	0.93 	0.23 	0.04 	0.07 
+ORG  	0.96 	0.19 	0.00 	0.00 
+LOC  	0.45 	0.06 	0.88 	0.12 
+MISC 	0.97 	0.10 	0.01 	0.02 
+O    	0.55 	0.97 	0.48 	0.64 
+micro	0.77 	0.43 	0.43 	0.43 
+macro	0.77 	0.31 	0.28 	0.17 
+not-O	0.83 	0.07 	0.23 	0.10 
+
+2018-05-03 13:20:38,371:INFO: Entity level P/R/F1: 0.03/0.08/0.05
+2018-05-03 13:20:38,371:INFO: New best score! Saving model in results/window/20180503_132022/model.weights
+2018-05-03 13:20:38,483:INFO: Epoch 2 out of 10
+2018-05-03 13:20:44,961:INFO: Evaluating on development data
+2018-05-03 13:20:46,649:DEBUG: Token-level confusion matrix:
+go\gu   	PER     	ORG     	LOC     	MISC    	O       
+PER     	56.00   	3.00    	2994.00 	9.00    	87.00   
+ORG     	27.00   	2.00    	1917.00 	3.00    	143.00  
+LOC     	20.00   	0.00    	1982.00 	6.00    	86.00   
+MISC    	16.00   	0.00    	1167.00 	5.00    	80.00   
+O       	114.00  	9.00    	20818.00	33.00   	21785.00
+
+2018-05-03 13:20:46,651:DEBUG: Token-level scores:
+label	acc  	prec 	rec  	f1   
+PER  	0.94 	0.24 	0.02 	0.03 
+ORG  	0.96 	0.14 	0.00 	0.00 
+LOC  	0.47 	0.07 	0.95 	0.13 
+MISC 	0.97 	0.09 	0.00 	0.01 
+O    	0.58 	0.98 	0.51 	0.67 
+micro	0.79 	0.46 	0.46 	0.46 
+macro	0.79 	0.30 	0.30 	0.17 
+not-O	0.84 	0.07 	0.24 	0.11 
+
+2018-05-03 13:20:46,651:INFO: Entity level P/R/F1: 0.04/0.10/0.06
+2018-05-03 13:20:46,651:INFO: New best score! Saving model in results/window/20180503_132022/model.weights
+2018-05-03 13:20:46,775:INFO: Epoch 3 out of 10
+2018-05-03 13:20:55,047:INFO: Evaluating on development data
+2018-05-03 13:20:57,327:DEBUG: Token-level confusion matrix:
+go\gu   	PER     	ORG     	LOC     	MISC    	O       
+PER     	60.00   	3.00    	2986.00 	2.00    	98.00   
+ORG     	39.00   	0.00    	1902.00 	6.00    	145.00  
+LOC     	30.00   	2.00    	1911.00 	6.00    	145.00  
+MISC    	13.00   	0.00    	1173.00 	2.00    	80.00   
+O       	85.00   	6.00    	20268.00	41.00   	22359.00
+
+2018-05-03 13:20:57,329:DEBUG: Token-level scores:
+label	acc  	prec 	rec  	f1   
+PER  	0.94 	0.26 	0.02 	0.04 
+ORG  	0.00 	0.00 	0.00 	0.00 
+LOC  	0.48 	0.07 	0.91 	0.13 
+MISC 	0.97 	0.04 	0.00 	0.00 
+O    	0.59 	0.98 	0.52 	0.68 
+micro	0.79 	0.47 	0.47 	0.47 
+macro	0.60 	0.27 	0.29 	0.17 
+not-O	0.84 	0.07 	0.23 	0.11 
+
+2018-05-03 13:20:57,330:INFO: Entity level P/R/F1: 0.04/0.09/0.06
+2018-05-03 13:20:57,330:INFO: Epoch 4 out of 10
+2018-05-03 13:21:04,787:INFO: Evaluating on development data
+2018-05-03 13:21:06,559:DEBUG: Token-level confusion matrix:
+go\gu   	PER     	ORG     	LOC     	MISC    	O       
+PER     	59.00   	1.00    	2963.00 	4.00    	122.00  
+ORG     	19.00   	2.00    	1920.00 	2.00    	149.00  
+LOC     	28.00   	0.00    	1948.00 	0.00    	118.00  
+MISC    	12.00   	0.00    	1166.00 	3.00    	87.00   
+O       	71.00   	1.00    	19791.00	16.00   	22880.00
+
+2018-05-03 13:21:06,561:DEBUG: Token-level scores:
+label	acc  	prec 	rec  	f1   
+PER  	0.94 	0.31 	0.02 	0.04 
+ORG  	0.96 	0.50 	0.00 	0.00 
+LOC  	0.49 	0.07 	0.93 	0.13 
+MISC 	0.97 	0.12 	0.00 	0.00 
+O    	0.60 	0.98 	0.54 	0.69 
+micro	0.79 	0.48 	0.48 	0.48 
+macro	0.79 	0.40 	0.30 	0.17 
+not-O	0.84 	0.07 	0.23 	0.11 
+
+2018-05-03 13:21:06,561:INFO: Entity level P/R/F1: 0.04/0.10/0.06
+2018-05-03 13:21:06,562:INFO: New best score! Saving model in results/window/20180503_132022/model.weights
+2018-05-03 13:21:06,693:INFO: Epoch 5 out of 10
+2018-05-03 13:21:13,854:INFO: Evaluating on development data

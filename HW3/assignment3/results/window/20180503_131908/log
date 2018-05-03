@@ -1,0 +1,48 @@
+2018-05-03 13:19:12,610:INFO: Building model...
+2018-05-03 13:19:13,493:INFO: took 0.88 seconds
+2018-05-03 13:19:14,801:INFO: Epoch 1 out of 10
+2018-05-03 13:19:21,557:INFO: Evaluating on development data
+2018-05-03 13:19:23,707:DEBUG: Token-level confusion matrix:
+go\gu   	PER     	ORG     	LOC     	MISC    	O       
+PER     	3149.00 	0.00    	0.00    	0.00    	0.00    
+ORG     	2092.00 	0.00    	0.00    	0.00    	0.00    
+LOC     	2094.00 	0.00    	0.00    	0.00    	0.00    
+MISC    	1268.00 	0.00    	0.00    	0.00    	0.00    
+O       	42759.00	0.00    	0.00    	0.00    	0.00    
+
+2018-05-03 13:19:23,709:DEBUG: Token-level scores:
+label	acc  	prec 	rec  	f1   
+PER  	0.06 	0.06 	1.00 	0.12 
+ORG  	0.00 	0.00 	0.00 	0.00 
+LOC  	0.00 	0.00 	0.00 	0.00 
+MISC 	0.00 	0.00 	0.00 	0.00 
+O    	0.00 	0.00 	0.00 	0.00 
+micro	0.62 	0.06 	0.06 	0.06 
+macro	0.01 	0.01 	0.20 	0.02 
+not-O	0.74 	0.06 	0.37 	0.11 
+
+2018-05-03 13:19:23,709:INFO: Entity level P/R/F1: 0.01/0.00/0.01
+2018-05-03 13:19:23,709:INFO: New best score! Saving model in results/window/20180503_131908/model.weights
+2018-05-03 13:19:23,836:INFO: Epoch 2 out of 10
+2018-05-03 13:19:31,082:INFO: Evaluating on development data
+2018-05-03 13:19:32,767:DEBUG: Token-level confusion matrix:
+go\gu   	PER     	ORG     	LOC     	MISC    	O       
+PER     	3149.00 	0.00    	0.00    	0.00    	0.00    
+ORG     	2092.00 	0.00    	0.00    	0.00    	0.00    
+LOC     	2094.00 	0.00    	0.00    	0.00    	0.00    
+MISC    	1268.00 	0.00    	0.00    	0.00    	0.00    
+O       	42759.00	0.00    	0.00    	0.00    	0.00    
+
+2018-05-03 13:19:32,769:DEBUG: Token-level scores:
+label	acc  	prec 	rec  	f1   
+PER  	0.06 	0.06 	1.00 	0.12 
+ORG  	0.00 	0.00 	0.00 	0.00 
+LOC  	0.00 	0.00 	0.00 	0.00 
+MISC 	0.00 	0.00 	0.00 	0.00 
+O    	0.00 	0.00 	0.00 	0.00 
+micro	0.62 	0.06 	0.06 	0.06 
+macro	0.01 	0.01 	0.20 	0.02 
+not-O	0.74 	0.06 	0.37 	0.11 
+
+2018-05-03 13:19:32,769:INFO: Entity level P/R/F1: 0.01/0.00/0.01
+2018-05-03 13:19:32,769:INFO: Epoch 3 out of 10

@@ -1,0 +1,49 @@
+2018-05-03 09:01:14,321:INFO: Building model...
+2018-05-03 09:01:15,208:INFO: took 0.89 seconds
+2018-05-03 09:01:16,518:INFO: Epoch 1 out of 10
+2018-05-03 09:01:23,811:INFO: Evaluating on development data
+2018-05-03 09:01:25,679:DEBUG: Token-level confusion matrix:
+go\gu   	PER     	ORG     	LOC     	MISC    	O       
+PER     	3149.00 	0.00    	0.00    	0.00    	0.00    
+ORG     	2092.00 	0.00    	0.00    	0.00    	0.00    
+LOC     	2094.00 	0.00    	0.00    	0.00    	0.00    
+MISC    	1268.00 	0.00    	0.00    	0.00    	0.00    
+O       	42759.00	0.00    	0.00    	0.00    	0.00    
+
+2018-05-03 09:01:25,681:DEBUG: Token-level scores:
+label	acc  	prec 	rec  	f1   
+PER  	0.06 	0.06 	1.00 	0.12 
+ORG  	0.00 	0.00 	0.00 	0.00 
+LOC  	0.00 	0.00 	0.00 	0.00 
+MISC 	0.00 	0.00 	0.00 	0.00 
+O    	0.00 	0.00 	0.00 	0.00 
+micro	0.62 	0.06 	0.06 	0.06 
+macro	0.01 	0.01 	0.20 	0.02 
+not-O	0.74 	0.06 	0.37 	0.11 
+
+2018-05-03 09:01:25,681:INFO: Entity level P/R/F1: 0.01/0.00/0.01
+2018-05-03 09:01:25,681:INFO: New best score! Saving model in results/window/20180503_090109/model.weights
+2018-05-03 09:01:25,792:INFO: Epoch 2 out of 10
+2018-05-03 09:01:32,870:INFO: Evaluating on development data
+2018-05-03 09:01:34,507:DEBUG: Token-level confusion matrix:
+go\gu   	PER     	ORG     	LOC     	MISC    	O       
+PER     	3149.00 	0.00    	0.00    	0.00    	0.00    
+ORG     	2092.00 	0.00    	0.00    	0.00    	0.00    
+LOC     	2094.00 	0.00    	0.00    	0.00    	0.00    
+MISC    	1268.00 	0.00    	0.00    	0.00    	0.00    
+O       	42759.00	0.00    	0.00    	0.00    	0.00    
+
+2018-05-03 09:01:34,509:DEBUG: Token-level scores:
+label	acc  	prec 	rec  	f1   
+PER  	0.06 	0.06 	1.00 	0.12 
+ORG  	0.00 	0.00 	0.00 	0.00 
+LOC  	0.00 	0.00 	0.00 	0.00 
+MISC 	0.00 	0.00 	0.00 	0.00 
+O    	0.00 	0.00 	0.00 	0.00 
+micro	0.62 	0.06 	0.06 	0.06 
+macro	0.01 	0.01 	0.20 	0.02 
+not-O	0.74 	0.06 	0.37 	0.11 
+
+2018-05-03 09:01:34,509:INFO: Entity level P/R/F1: 0.01/0.00/0.01
+2018-05-03 09:01:34,510:INFO: Epoch 3 out of 10
+2018-05-03 09:01:41,752:INFO: Evaluating on development data
