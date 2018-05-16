@@ -152,16 +152,17 @@ class SequencePredictor(Model):
 
         grads_vars  = optimizer.compute_gradients(loss)
         
+        temp = zip(*grads_vars)
+        grads = temp[0]
+        variables = temp[1]
         if self.config.clip_gradients == True:
-            temp = zip(*grads_vars)
-            grads = temp[0]
-            variables = temp[1]
             
             clip_grads, _ = tf.clip_by_global_norm(grads, self.config.max_grad_norm)
             self.grad_norm = tf.global_norm(clip_grads) 
             
             grads_vars = zip(clip_grads, variables)
-
+        else:
+            self.grad_norm = tf.global_norm(grads)
         train_op = optimizer.apply_gradients(grads_vars)
         
         ### END YOUR CODE
